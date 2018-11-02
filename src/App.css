@@ -1,0 +1,32 @@
+.card {
+  height: 99vh;
+  background-color: #FDC019;
+  margin: 0;
+  margin-left: -4%;
+  margin-bottom: -10%;
+  padding: 0;
+}
+
+h2 {
+  color: white;
+  letter-spacing: -5px;
+  font-weight: 600;
+}
+
+h5 {
+  letter-spacing: -2px;
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  color: white!important;
+  text-align: center;
+  padding-top: 2.5%;
+  font-weight: 300;
+  font-size: 150%;
+}
+
+.bold {
+  font-weight: 500; 
+}
