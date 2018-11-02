@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "markdownlinks": "git+https://github.com/florenciasilva/cdmx-2018-01-FE-markdown.git",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-materialize": "^2.4.8",
