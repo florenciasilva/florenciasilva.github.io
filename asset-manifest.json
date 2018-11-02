@@ -1,13 +1,13 @@
 {
-  "main.css": "/florenciasilva.github.io/static/css/main.efbaefd6.chunk.css",
-  "main.js": "/florenciasilva.github.io/static/js/main.77a28067.chunk.js",
-  "main.js.map": "/florenciasilva.github.io/static/js/main.77a28067.chunk.js.map",
-  "static/js/1.2b1b3027.chunk.js": "/florenciasilva.github.io/static/js/1.2b1b3027.chunk.js",
-  "static/js/1.2b1b3027.chunk.js.map": "/florenciasilva.github.io/static/js/1.2b1b3027.chunk.js.map",
-  "runtime~main.js": "/florenciasilva.github.io/static/js/runtime~main.8aa11e9e.js",
-  "runtime~main.js.map": "/florenciasilva.github.io/static/js/runtime~main.8aa11e9e.js.map",
-  "static/css/main.efbaefd6.chunk.css.map": "/florenciasilva.github.io/static/css/main.efbaefd6.chunk.css.map",
-  "index.html": "/florenciasilva.github.io/index.html",
-  "precache-manifest.7c68ef8717409e9bf97694f422af3489.js": "/florenciasilva.github.io/precache-manifest.7c68ef8717409e9bf97694f422af3489.js",
-  "service-worker.js": "/florenciasilva.github.io/service-worker.js"
+  "main.css": "/static/css/main.efbaefd6.chunk.css",
+  "main.js": "/static/js/main.dc79e649.chunk.js",
+  "main.js.map": "/static/js/main.dc79e649.chunk.js.map",
+  "static/js/1.2b1b3027.chunk.js": "/static/js/1.2b1b3027.chunk.js",
+  "static/js/1.2b1b3027.chunk.js.map": "/static/js/1.2b1b3027.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.efbaefd6.chunk.css.map": "/static/css/main.efbaefd6.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.9cda4ba849d0d957013f2143696adb4c.js": "/precache-manifest.9cda4ba849d0d957013f2143696adb4c.js",
+  "service-worker.js": "/service-worker.js"
 }
