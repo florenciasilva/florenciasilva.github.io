@@ -8,14 +8,14 @@ const Presentation = () => (
         <Row>
         <Col s={10} m={3} l={3}>
         <Card className="yellow-card">
-            <h6>¡Hola! Mi nombre es:</h6>
+            <h6>Hi! My name is:</h6>
             <h2 className='center'>Florencia Silva Olivera</h2>
-            <h5>Soy una Front End Developer con
-                conocimientos de JavaScript, ReactJS y React-Native
-                con 6 meses de experiencia</h5>
-            <p>Laboratorian <span className="bold">|</span> Agile <span className="bold">|</span> Autodidacta</p>
+            <h5>I'm a Front End Developer with knowledge in JS, ReactJS and ReactNative
+                with six month experience.
+            </h5>
+            <p>Laboratorian <span className="bold">|</span> Agile <span className="bold">|</span> Self-Taught</p>
             <Row>
-            <Button><a href="https://drive.google.com/file/d/16TrK313KGCVTyV___0vPYC6bYMOmpupo/view?usp=sharing" target="_blank" rel="noopener noreferrer">Descarga mi CV</a></Button>
+            <Button><a href="https://drive.google.com/file/d/16TrK313KGCVTyV___0vPYC6bYMOmpupo/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download my CV</a></Button>
             </Row>
             <div className="margin-links">
             <Row>
