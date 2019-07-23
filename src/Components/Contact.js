@@ -9,7 +9,7 @@ const Contact = () => {
             <Title>let's get in touch</Title>
             <Wrapper>
                 <Social />
-                <a href="mailto:hensgrej@gmail.com"  aria-label="Email"><Icon className="fas fa-envelope-square"></Icon></a>
+                <a href="mailto:hensgrej@gmail.com"  aria-label="Send me an email!"><Icon className="fas fa-envelope-square"></Icon></a>
             </Wrapper>
         </Footer>
     );

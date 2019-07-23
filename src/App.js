@@ -9,7 +9,7 @@ import { SkipNavLink, SkipNavContent } from '@reach/skip-nav'
 const App = () => {
   return (
     <main>
-      <SkipNavLink />
+      <SkipNavLink tabIndex="0"/>
         <About />
       <SkipNavContent />
       <Wrapper>

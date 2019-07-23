@@ -11,7 +11,8 @@
     position:static;
     width:auto;
     height:auto;
-    color: #DF2A3B;
-    font-size: 1.5rem;
+    color: palevioletred;
+    font-size: 2rem;
     text-decoration: none;
+    font-family: 'Roboto Monospace', monospace;
 }

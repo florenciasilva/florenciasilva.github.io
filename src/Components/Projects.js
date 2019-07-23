@@ -8,12 +8,12 @@ const Projects = () => {
         return (
             <Container key={i}>
                     <Title>{project.title}</Title>
-                    <Image src={images[project.thumbnail]} className="project-img" alt={project.title}/>
-                    <Date>{project.date}</Date>
-                    <Tags>{project.tags}</Tags>
+                    <Image tabIndex="-1" src={images[project.thumbnail]} className="project-img" alt={project.title}/>
+                    <p><SR>This project was made in</SR>{project.date}</p>
+                    <Tags><SR>Technologies used for this project</SR>{project.tags}</Tags>
                     <Wrapper>
-                        <a href={project.github} target="_blank" rel="noopener noreferrer">Github</a>
-                        <a href={project.demo} target="_blank" rel="noopener noreferrer">Demo</a>
+                        <a href={project.github} aria-label={project.label[0]} target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href={project.demo} aria-label={project.label[1]} target="_blank" rel="noopener noreferrer">Demo</a>
                     </Wrapper>
             </Container>
         );
@@ -36,9 +36,9 @@ const Image = styled.img`
     height: 35vh;
     object-fit: cover;
 `
-
-const Date = styled.time`
-    display: block;
+const SR = styled.span `
+    color: #fcfcfa;
+    font-size: .1rem;
 `
 
 const Tags = styled.p`
