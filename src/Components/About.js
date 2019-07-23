@@ -38,6 +38,9 @@ const Intro = styled.h1`
     font-size: 4rem;
     margin: 0;
     font-family: 'Roboto Mono', monospace;
+    @media only screen and (max-width: 480px) {
+        font-size: 3rem;
+    }
 `
 
 const Wrapper = styled.article `
@@ -50,6 +53,9 @@ const Subtitle = styled.p`
     font-size: 2.2rem;
     margin: 0;
     font-family: 'Roboto Mono', monospace;
+    @media only screen and (max-width: 480px) {
+        font-size: 2rem;
+    }
 `
 
 const Tags = styled.p`
@@ -57,6 +63,9 @@ const Tags = styled.p`
     font-size: 1.2rem;
     margin-top: -.2rem;
     margin-bottom: .2rem;
+    @media only screen and (max-width: 480px) {
+        font-size: 1rem;
+    }
 `
 const Image = styled.img `
     width: 100%;

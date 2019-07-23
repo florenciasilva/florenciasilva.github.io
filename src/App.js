@@ -22,5 +22,15 @@ const App = () => {
 
 const Wrapper = styled.section`
   display: flex;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 `
 export default App;

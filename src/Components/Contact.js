@@ -8,8 +8,8 @@ const Contact = () => {
         <Footer>
             <Title>let's get in touch</Title>
             <Wrapper>
-                <a href="mailto:hensgrej@gmail.com"  aria-label="Email"><Icon className="fas fa-envelope-square"></Icon></a>
                 <Social />
+                <a href="mailto:hensgrej@gmail.com"  aria-label="Email"><Icon className="fas fa-envelope-square"></Icon></a>
             </Wrapper>
         </Footer>
     );
@@ -45,9 +45,12 @@ const Wrapper = styled.section`
 
 const Icon = styled.i`
     font-size: 3rem;
-    margin-top: 2vw;
     color: palevioletred;
     margin: 0 1rem 0 0;
+    @media only screen and (max-width: 480px) {
+        margin: .5rem 1rem 0 0;
+
+    }
 
 `
 
