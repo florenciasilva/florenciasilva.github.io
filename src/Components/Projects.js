@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ProjectData from '../projects.json';
 import images from '../assets';
+import VisuallyHidden from "@reach/visually-hidden";
 
 const Projects = () => {
     return ProjectData.projects.map((project, i) => {
@@ -9,8 +10,10 @@ const Projects = () => {
             <Container key={i}>
                     <Title>{project.title}</Title>
                     <Image tabIndex="-1" src={images[project.thumbnail]} className="project-img" alt={project.title}/>
-                    <p><SR>This project was made in</SR>{project.date}</p>
-                    <Tags><SR>Technologies used for this project</SR>{project.tags}</Tags>
+                    <VisuallyHidden>This project was made in</VisuallyHidden>
+                    <p>{project.date}</p>
+                    <VisuallyHidden>Technologies used for this project</VisuallyHidden>
+                    <Tags>{project.tags}</Tags>
                     <Wrapper>
                         <a href={project.github} aria-label={project.label[0]} target="_blank" rel="noopener noreferrer">Github</a>
                         <a href={project.demo} aria-label={project.label[1]} target="_blank" rel="noopener noreferrer">Demo</a>
@@ -35,10 +38,6 @@ const Title = styled.h1`
 const Image = styled.img`
     height: 35vh;
     object-fit: cover;
-`
-const SR = styled.span `
-    color: #fcfcfa;
-    font-size: .1rem;
 `
 
 const Tags = styled.p`
