@@ -10,8 +10,10 @@ const Projects = () => {
             <Container key={i}>
                     <Title>{project.title}</Title>
                     <Image tabIndex="-1" src={images[project.thumbnail]} className="project-img" alt={project.title}/>
-                    <VisuallyHidden>This project was made in</VisuallyHidden>
+                    <VisuallyHidden>This project was made on</VisuallyHidden>
                     <p>{project.date}</p>
+                    <VisuallyHidden>and it is a</VisuallyHidden>
+                    <Type>{project.type}.</Type>
                     <VisuallyHidden>Technologies used for this project</VisuallyHidden>
                     <Tags>{project.tags}</Tags>
                     <Wrapper>
@@ -55,4 +57,7 @@ const Wrapper = styled.article`
     }
     `
 
+const Type = styled.p`
+    margin-top: -1rem;
+`
 export default Projects;
