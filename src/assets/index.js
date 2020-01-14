@@ -1,9 +1,9 @@
 import MDLinks from './md-links.png';
-import Reactibook from './reactibook.png';
-import TicTacToe from './xo-tictactoe.png';
+import Reactibook from './reactibook.PNG';
+import Memoire from './memoire.PNG';
 
 export default {
     MDLinks,
     Reactibook,
-    TicTacToe
+    Memoire
 };

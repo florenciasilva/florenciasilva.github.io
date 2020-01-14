@@ -1,24 +1,24 @@
 {
     "projects": [
         {
-            "title": "Reactibook",
-            "date": "Feb 2019",
-            "tags": "react, redux, firebase, styled-components & react-router",
+            "title": "Reactibook [WIP]",
+            "date": "Nov 2019",
+            "tags": "react, redux, mongoDB, nodeJS, express, bcrypt, styled-components & react-router",
             "thumbnail": "Reactibook",
             "type": "social network",
             "github": "https://github.com/florenciasilva/reactibook",
-            "demo": "https://reactibook-6fbc4.firebaseapp.com/",
+            "demo": "https://reactibook.netlify.com/",
             "label": ["Check Reactibook's repository on Github", "See Reactibook's demo"]
         },
         {
-            "title": "XO Tic Tac Toe",
-            "date": "Nov 2018",
-            "tags": "react native, react-navigation & expo",
-            "thumbnail": "TicTacToe",
-            "type": "mobile game",
-            "github": "https://github.com/florenciasilva/xoTicTacToe",
-            "demo": "https://expo.io/@hensgrej/xotictactoe",
-            "label": ["Check XO Tic Tac Toe's repository on Github", "See XO Tic Tac Toe's demo"]
+            "title": "Memoire",
+            "date": "Sep 2019",
+            "tags": "react, firebase, react-router, styled-components",
+            "thumbnail": "Memoire",
+            "type": "note taking web app",
+            "github": "https://github.com/florenciasilva/memoire",
+            "demo": "https://memoire-8db95.firebaseapp.com/",
+            "label": ["Check Memoire's repository on Github", "See Memoire's demo"]
         },
         {
             "title": "MDLinks",
