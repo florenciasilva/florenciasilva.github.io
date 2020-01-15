@@ -19,8 +19,8 @@ const About = () => {
             <Description>
                 <Intro>Florencia Silva</Intro>
             <Wrapper>
-                <Subtitle>Front End Developer</Subtitle>
-                <Tags>laboratorian  agile  self-taught</Tags>
+                <Subtitle>Full Stack Developer</Subtitle>
+                <Tags>self-taught  agile  accessibility</Tags>
                 <Social />
             </Wrapper>
             </Description>
